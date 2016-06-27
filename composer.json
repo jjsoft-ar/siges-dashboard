@@ -1,0 +1,26 @@
+{
+	"name": "jjsoft-ar/siges-dashboard",
+	"description": "Dashboard for SiGEs",
+	"version": "1.0.0",
+	"type": "siges-platform-module",
+	"homepage": "https://github.com/jjsoft-ar/siges-ui",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jose C Gallo",
+			"email": "aguara_gazu@yahoo.com.ar",
+			"homepage": "http://aguaragazu.github.io/aguaragazu",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Modules\\Dashboard\\": ""
+		}
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+      "preferred-install": "dist"
+    }
+}
